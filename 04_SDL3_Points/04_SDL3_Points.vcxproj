@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{276ba554-c8b1-4169-b5a0-1bc1015aff1c}</ProjectGuid>
-    <RootNamespace>SDL3clearscreen</RootNamespace>
+    <ProjectGuid>{ecf1efee-fbc7-44ff-910b-4b256a812b24}</ProjectGuid>
+    <RootNamespace>My04SDL3Points</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>01_SDL3_clear_screen</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -132,7 +131,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="clear.cpp" />
+    <ClCompile Include="points.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\SDL-release-3.2.10\VisualC\SDL\SDL.vcxproj">

@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{276ba554-c8b1-4169-b5a0-1bc1015aff1c}</ProjectGuid>
-    <RootNamespace>SDL3clearscreen</RootNamespace>
+    <ProjectGuid>{3A52DD0E-8065-4DB9-B06C-FF86FA5B4EC7}</ProjectGuid>
+    <RootNamespace>My05SDL3Rectangle</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>01_SDL3_clear_screen</ProjectName>
+    <ProjectName>102_SDL3_Snake</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -132,12 +132,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="clear.cpp" />
+    <ClCompile Include="Food.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="manager.cpp" />
+    <ClCompile Include="Snake.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\SDL-release-3.2.10\VisualC\SDL\SDL.vcxproj">
       <Project>{81ce8daf-ebb2-4761-8e45-b71abcca8c68}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Food.h" />
+    <ClInclude Include="manager.h" />
+    <ClInclude Include="Snake.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
